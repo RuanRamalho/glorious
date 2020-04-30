@@ -1,0 +1,35 @@
+.history-area {
+  margin-top: 100px;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+}
+
+.history-description {
+    h3 {
+
+    }
+
+    p {
+      color: #777777;
+      font-weight: 300;
+      line-height: 1.5em;
+      text-align: left;
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+}
+
+@media (min-width: $screen-md-min) {
+}
+
+@media (min-width: $screen-lg-min) {
+}
