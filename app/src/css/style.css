@@ -22,7 +22,6 @@
     color: white; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background: #fff; }
 
 .logo-image {
@@ -43,17 +42,53 @@ body {
     text-align: center;
     margin-bottom: 60px; }
 
+@media (min-width: 992px) {
+  .header {
+    height: 100vh; }
+    .header h1 {
+      font-size: 60px;
+      font-weight: 100;
+      margin-bottom: 20px; } }
+
 .history-area {
   margin-top: 100px; }
-  .history-area h2 {
-    text-align: center; }
-  .history-area p {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px; }
+
+.history-title h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.history-title p {
+  text-align: center;
+  font-size: 16px; }
 
 .history-description p {
   color: #777777;
   font-weight: 300;
   line-height: 1.5em;
   text-align: left; }
+
+@media (min-width: 992px) {
+  .history-title p {
+    font-size: 16px; } }
+
+.service-area {
+  background: #f3487f; }
+
+.services {
+  height: 260px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.services-description {
+  height: 260px;
+  background: #6f7598;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff; }

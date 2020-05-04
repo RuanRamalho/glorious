@@ -1,0 +1,33 @@
+.service-area {
+  background: #f3487f;
+}
+
+.services {
+  height: 260px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-description {
+  height: 260px;
+  background: #6f7598;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+  
+  
+@media (min-width: $screen-sm-min) {
+}
+  
+@media (min-width: $screen-md-min) {
+}
+  
+@media (min-width: $screen-lg-min) {
+}
+  
