@@ -1,11 +1,17 @@
+a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .button {
   background: transparent;
   border: 1px solid #eee;
   color: #777777;
-  border-radius: 40px;
-  line-height: 70px;
-  padding: 12px 28px;
-  text-decoration: none;
+  border-radius: 20px;
+  line-height: 37px;
+  margin: 10px 10px 0 30px;
+  padding: 0 25px;
+  font-weight: 550;
 
   &--support {
     color: white;
