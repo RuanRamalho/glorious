@@ -127,3 +127,30 @@ body {
 @media (min-width: 992px) {
   .services-description {
     font-size: 14px; } }
+
+.experience-title {
+  margin-top: 100px; }
+  .experience-title h2 {
+    margin-bottom: 30px; }
+  .experience-title p {
+    margin-bottom: 30px;
+    color: #777777; }
+
+.vector-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+.vector-description {
+  margin-left: 30px;
+  margin-top: 30px; }
+  .vector-description h3 {
+    font-size: 32px;
+    font-weight: bold; }
+  .vector-description h4 {
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 18px; }
+  .vector-description p {
+    color: #777777; }

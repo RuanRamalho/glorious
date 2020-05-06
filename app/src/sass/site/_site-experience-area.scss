@@ -1,0 +1,48 @@
+.experience-title {
+  margin-top: 100px;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  p {
+      margin-bottom: 30px;
+      color: #777777;
+  }
+}
+
+.vector-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.vector-description {
+  margin-left: 30px;
+  margin-top: 30px;
+    
+   h3 { 
+    font-size: 32px;
+    font-weight: bold;
+  }
+    
+   h4 {
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+   p {
+    color: #777777
+  }  
+}
+
+@media (min-width: $screen-sm-min) {
+}
+  
+@media (min-width: $screen-md-min) {
+}
+  
+@media (min-width: $screen-lg-min) {
+}
