@@ -3,10 +3,6 @@
  * Modules > Variables
  * 
  */
-a {
-  text-decoration: none;
-  font-size: 12px; }
-
 .button {
   background: transparent;
   border: 1px solid #eee;
@@ -15,7 +11,7 @@ a {
   line-height: 37px;
   margin: 10px 10px 0 30px;
   padding: 0 25px;
-  font-weight: 550; }
+  font-weight: 530; }
   .button--support {
     color: white;
     border-radius: 20px;
@@ -25,6 +21,32 @@ a {
     background: #8460f6;
     border: 1px solid #8460f6;
     color: white; }
+  .button--default {
+    color: #8460f6;
+    padding: 12px 20px; }
+
+@media (min-width: 992px) {
+  .button {
+    background: transparent;
+    border: 1px solid #eee;
+    color: #777777;
+    border-radius: 20px;
+    line-height: 37px;
+    margin: 10px 10px 0 30px;
+    padding: 0 25px;
+    font-weight: 200; }
+    .button--support {
+      color: white;
+      border-radius: 20px;
+      line-height: 40px;
+      padding: 0 20px; }
+    .button--active {
+      background: #8460f6;
+      border: 1px solid #8460f6;
+      color: white; }
+    .button--default {
+      color: #8460f6;
+      padding: 10px 20px; } }
 
 body {
   background: #fff; }
