@@ -48,6 +48,22 @@
       color: #8460f6;
       padding: 10px 20px; } }
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; }
+
+input[type=text]:focus {
+  background-color: #f3f3f3;
+  border: 1px solid #555; }
+
+::-webkit-input-placeholder {
+  color: #797979; }
+
+input:-moz-placeholder {
+  color: #797979; }
+
 body {
   background: #fff; }
 
