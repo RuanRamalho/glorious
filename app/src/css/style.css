@@ -24,8 +24,6 @@
   .button--default {
     color: #8460f6;
     padding: 12px 20px; }
-  .button--send {
-    color: red; }
 
 @media (min-width: 992px) {
   .button {
@@ -237,3 +235,14 @@ body {
     .carousel-description p {
       margin-top: 0;
       margin-bottom: 1rem; } }
+
+.forms-title {
+  margin-top: 100px; }
+  .forms-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .forms-title p {
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 40px; }
