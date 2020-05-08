@@ -156,7 +156,7 @@ body {
 .service-area {
   background: #f3487f; }
 
-.services {
+.services-title {
   height: 260px;
   background: #fff;
   display: flex;
@@ -203,3 +203,37 @@ body {
     font-size: 18px; }
   .vector-description p {
     color: #777777; }
+
+.projects-area {
+  background: #5dd1e3;
+  padding: 100px 0;
+  margin-top: 100px; }
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  align-items: center; }
+
+.carousel-description {
+  background: #fff;
+  padding: 100px 50px; }
+  .carousel-description h3 {
+    font-size: 20px;
+    margin-bottom: 15px; }
+  .carousel-description p {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+
+@media (min-width: 992px) {
+  .carousel-image {
+    height: 100%;
+    width: 100%; }
+  .carousel-description {
+    background: #fff;
+    padding: 100px 50px; }
+    .carousel-description h3 {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    .carousel-description p {
+      margin-top: 0;
+      margin-bottom: 1rem; } }
