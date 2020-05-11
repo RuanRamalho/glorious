@@ -73,6 +73,15 @@ textarea {
 input:-moz-placeholder {
   color: #797979; }
 
+.description-input {
+  width: 100%;
+  line-height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 300;
+  background: #f9f9ff;
+  padding: 0 25px; }
+
 body {
   background: #fff; }
 
