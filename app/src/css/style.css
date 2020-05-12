@@ -86,7 +86,29 @@ body {
   background: #fff; }
 
 footer {
-  background: #4e5375; }
+  background: #4e5375;
+  padding: 100px 0; }
+
+.footer-content {
+  margin-bottom: 30px; }
+  .footer-content .footer-nav {
+    text-decoration: none; }
+
+.footer-bottom {
+  padding-top: 40px; }
+  .footer-bottom .footer-text {
+    color: #fff; }
+
+.footer-nav, .footer-images {
+  list-style: none;
+  padding: 0; }
+
+.footer-images {
+  margin: -5px; }
+  .footer-images li {
+    width: 25%; }
+  .footer-images img {
+    margin: 5px; }
 
 .logo-image {
   padding: 18px; }
