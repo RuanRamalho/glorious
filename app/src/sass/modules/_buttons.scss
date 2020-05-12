@@ -7,6 +7,7 @@
   margin: 10px 10px 0 30px;
   padding: 0 25px;
   font-weight: 530;
+  position: relative;
 
   &--support {
     color: white;
@@ -24,6 +25,21 @@
   &--default {
     color: #8460f6;
     padding: 12px 20px;    
+  }
+
+  &--send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    right: 10px;
+    text-transform: uppercase;
+    border: 1px solid #eee;
+    
+    span {
+      color: #8460f6;
+      font-weight: 500;
+    }
+
   }
 }
 
