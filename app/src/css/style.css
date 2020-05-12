@@ -11,7 +11,8 @@
   line-height: 37px;
   margin: 10px 10px 0 30px;
   padding: 0 25px;
-  font-weight: 530; }
+  font-weight: 530;
+  position: relative; }
   .button--support {
     color: white;
     border-radius: 20px;
