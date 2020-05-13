@@ -102,13 +102,27 @@ footer {
 
 .footer-content {
   margin-bottom: 30px; }
-  .footer-content .footer-nav {
+  .footer-content h6 {
+    margin-bottom: 15px; }
+  .footer-content li {
+    margin-top: 8px;
     text-decoration: none; }
+  .footer-content a {
+    color: #fff !important;
+    text-decoration: none; }
+  .footer-content p {
+    margin: 0;
+    transition: all 0.1s linear; }
+    .footer-content p:hover, .footer-content p:focus {
+      color: #8460f6; }
 
 .footer-bottom {
   padding-top: 40px; }
   .footer-bottom .footer-text {
     color: #fff; }
+    .footer-bottom .footer-text a {
+      color: #f9c400;
+      text-decoration: none; }
 
 .footer-nav, .footer-images {
   list-style: none;
