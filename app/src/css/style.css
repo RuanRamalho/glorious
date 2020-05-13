@@ -11,7 +11,8 @@
   line-height: 37px;
   margin: 10px 10px 0 30px;
   padding: 0 25px;
-  font-weight: 530; }
+  font-weight: 530;
+  position: relative; }
   .button--support {
     color: white;
     border-radius: 20px;
@@ -24,6 +25,16 @@
   .button--default {
     color: #8460f6;
     padding: 12px 20px; }
+  .button--send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    right: 10px;
+    text-transform: uppercase;
+    border: 1px solid #eee; }
+    .button--send span {
+      color: #8460f6;
+      font-weight: 500; }
 
 @media (min-width: 992px) {
   .button {
@@ -91,13 +102,27 @@ footer {
 
 .footer-content {
   margin-bottom: 30px; }
-  .footer-content .footer-nav {
+  .footer-content h6 {
+    margin-bottom: 15px; }
+  .footer-content li {
+    margin-top: 8px;
     text-decoration: none; }
+  .footer-content a {
+    color: #fff !important;
+    text-decoration: none; }
+  .footer-content p {
+    margin: 0;
+    transition: all 0.1s linear; }
+    .footer-content p:hover, .footer-content p:focus {
+      color: #8460f6; }
 
 .footer-bottom {
   padding-top: 40px; }
   .footer-bottom .footer-text {
     color: #fff; }
+    .footer-bottom .footer-text a {
+      color: #f9c400;
+      text-decoration: none; }
 
 .footer-nav, .footer-images {
   list-style: none;
@@ -285,3 +310,6 @@ footer {
   padding: 100px 0;
   margin-top: 100px;
   background: #f9c400; }
+
+.subscription-title {
+  margin-bottom: 50px; }
