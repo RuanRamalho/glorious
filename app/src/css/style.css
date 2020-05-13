@@ -116,6 +116,14 @@ footer {
     .footer-content p:hover, .footer-content p:focus {
       color: #8460f6; }
 
+.footer-medias i {
+  font-size: 30px;
+  padding: 3px;
+  color: #8460f6; }
+
+.footer-medias .fab:hover {
+  background: #f9c400; }
+
 .footer-bottom {
   padding-top: 40px; }
   .footer-bottom .footer-text {
@@ -123,6 +131,8 @@ footer {
     .footer-bottom .footer-text a {
       color: #f9c400;
       text-decoration: none; }
+    .footer-bottom .footer-text i {
+      color: #f3487f; }
 
 .footer-nav, .footer-images {
   list-style: none;

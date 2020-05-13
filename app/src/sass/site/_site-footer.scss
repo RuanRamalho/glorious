@@ -25,14 +25,27 @@ footer {
   }
 }
 
+.footer-medias {
+  i {
+    font-size: 30px;
+    padding: 3px;
+    color: #8460f6;
+  }
+  .fab:hover {
+    background: #f9c400;
+  }
+}
+
 .footer-bottom {
   padding-top: 40px;
   .footer-text {
     color: #fff;
-    
     a {
       color: #f9c400;
       text-decoration: none;
+    }
+    i {
+      color: #f3487f;
     }
   }
 }
