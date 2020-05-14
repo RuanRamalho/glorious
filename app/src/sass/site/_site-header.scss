@@ -7,12 +7,16 @@
 
 .hero {
   background: url(../img/banner-bg.jpg) no-repeat center center/cover;
-  display:block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 61px);
     h1 {
       color: white;
       text-align: center;
       font-size: 40px;
       margin-top: 40px;
+      font-weight: 100;
     }
     p {
       color: white;
@@ -27,6 +31,7 @@
 
 @media (min-width: $screen-md-min) {
   .hero {
+    justify-content: center;
     align-items: center;
     display: flex;
     height: calc(100vh - 61px);
@@ -34,6 +39,9 @@
       font-size: 60px;
       font-weight: 100;
       margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
     }
   }
 }
