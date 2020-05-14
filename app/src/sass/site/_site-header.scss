@@ -1,19 +1,19 @@
-.logo-image {
-  padding: 18px;
+.nav-header {
+  background: black;
+  .logo-image {
+    padding: 18px;
+  }
 }
 
-.header {
+.hero {
   background: url(../img/banner-bg.jpg) no-repeat center center/cover;
-  height: 70vh;
   display:block;
-    
     h1 {
       color: white;
       text-align: center;
       font-size: 40px;
       margin-top: 40px;
     }
-
     p {
       color: white;
       font-size: 16px;
@@ -26,9 +26,10 @@
 }
 
 @media (min-width: $screen-md-min) {
-  .header {
-    height: 100vh;
-
+  .hero {
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 61px);
     h1 {
       font-size: 60px;
       font-weight: 100;
