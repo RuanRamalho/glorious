@@ -1,5 +1,6 @@
-.nav-header {
+.header {
   background: black;
+  width: 100%;
   .logo-image {
     padding: 18px;
   }
@@ -30,6 +31,20 @@
 }
 
 @media (min-width: $screen-md-min) {
+  .header {
+    background: black;
+    height: 61px;
+    width: 100%;
+    &__main {
+      height: 61px;
+      &--fixed {
+        position: fixed;
+        width: 100%;
+        background: #000;
+        z-index: 3;
+      }
+    }
+  }
   .hero {
     justify-content: center;
     align-items: center;
