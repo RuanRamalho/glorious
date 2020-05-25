@@ -179,6 +179,7 @@ footer {
       .header__main--fixed {
         position: fixed;
         width: 100%;
+        transition: ease-out 0.4s;
         background: #000;
         z-index: 3; }
   .hero {
