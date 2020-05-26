@@ -148,8 +148,39 @@ footer {
 .header {
   background: black;
   width: 100%; }
-  .header .logo-image {
-    padding: 18px; }
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px; }
+  .nav-menu .menu {
+    height: 24px; }
+    .nav-menu .menu .hamburguer {
+      background: #fff;
+      border-radius: 10px;
+      height: 4px;
+      width: 40px;
+      position: relative;
+      transition: ease-out .2s; }
+      .nav-menu .menu .hamburguer::before, .nav-menu .menu .hamburguer::after {
+        content: '';
+        background: #fff;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: ease-out .2s; }
+      .nav-menu .menu .hamburguer::before {
+        top: 200%; }
+      .nav-menu .menu .hamburguer::after {
+        top: 400%; }
+      .nav-menu .menu .hamburguer.active {
+        transform: translate3d(0, 10px, 0) rotate(45deg); }
+        .nav-menu .menu .hamburguer.active::before {
+          transform: translate3d(-10px, 2px, 0) rotate(-45deg);
+          opacity: 0; }
+        .nav-menu .menu .hamburguer.active::after {
+          transform: translate3d(0, -16px, 0) rotate(-90deg); }
 
 .hero {
   background: url(../img/banner-bg.jpg) no-repeat center center/cover;

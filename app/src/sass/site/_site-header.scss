@@ -1,8 +1,51 @@
 .header {
   background: black;
   width: 100%;
-  .logo-image {
-    padding: 18px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  .menu {
+    height: 24px;
+    .hamburguer {
+    background: #fff;
+    border-radius: 10px;
+    height: 4px;
+    width: 40px;
+    position: relative;
+    transition: ease-out .2s;
+
+      &::before, &::after {
+        content: '';
+        background: #fff;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        position: absolute;      
+        transition: ease-out .2s;
+      }
+      &::before {
+        top: 200%;        
+      }
+      &::after {
+        top: 400%;          
+      }
+
+      &.active {
+        transform: translate3d(0, 10px, 0) rotate(45deg);
+        
+        &::before {
+          transform: translate3d(-10px,2px,0) rotate(-45deg);
+          opacity: 0;
+        }
+            
+        &::after {
+          transform: translate3d(0, -16px, 0) rotate(-90deg);
+        }
+      }
+    }
   }
 }
 
