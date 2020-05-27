@@ -154,7 +154,12 @@ footer {
     transition: all 0.3s;
     transform-origin: 100% 50%; }
     .header nav a {
-      margin-left: 40px; }
+      margin-left: 40px;
+      text-decoration: none;
+      color: #fff; }
+      .header nav a:hover {
+        color: #f3487f;
+        transition: all .3s; }
   .header .hide {
     transform: scale(0); }
   .header .nav-menu {

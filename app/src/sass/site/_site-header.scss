@@ -8,6 +8,12 @@
     transform-origin: 100% 50%;
     a {
       margin-left: 40px;
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: #f3487f;
+        transition: all .3s;
+      }
      }
   }
   .hide {
