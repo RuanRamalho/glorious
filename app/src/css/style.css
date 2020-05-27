@@ -148,39 +148,48 @@ footer {
 .header {
   background: black;
   width: 100%; }
-
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 18px; }
-  .nav-menu .menu {
-    height: 24px; }
-    .nav-menu .menu .hamburguer {
-      background: #fff;
-      border-radius: 10px;
-      height: 4px;
-      width: 40px;
-      position: relative;
-      transition: ease-out .2s; }
-      .nav-menu .menu .hamburguer::before, .nav-menu .menu .hamburguer::after {
-        content: '';
+  .header nav {
+    margin: 0 70px;
+    position: relative;
+    transition: all 0.3s;
+    transform-origin: 100% 50%; }
+    .header nav a {
+      margin-left: 40px; }
+  .header .hide {
+    transform: scale(0); }
+  .header .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px; }
+    .header .nav-menu .menu {
+      height: 24px; }
+      .header .nav-menu .menu .hamburguer {
         background: #fff;
         border-radius: 10px;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        transition: ease-out .2s; }
-      .nav-menu .menu .hamburguer::before {
-        top: 200%; }
-      .nav-menu .menu .hamburguer::after {
-        top: 400%; }
-      .nav-menu .menu .hamburguer.active {
-        transform: translate3d(0, 10px, 0) rotate(45deg); }
-        .nav-menu .menu .hamburguer.active::before {
-          transform: translate3d(-10px, 2px, 0) rotate(-45deg);
-          opacity: 0; }
-        .nav-menu .menu .hamburguer.active::after {
-          transform: translate3d(0, -16px, 0) rotate(-90deg); }
+        height: 2px;
+        position: relative;
+        transition: all .2s;
+        width: 30px; }
+        .header .nav-menu .menu .hamburguer::before, .header .nav-menu .menu .hamburguer::after {
+          content: '';
+          background: #fff;
+          border-radius: 10px;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          transition: all .2s; }
+        .header .nav-menu .menu .hamburguer::before {
+          top: 400%; }
+        .header .nav-menu .menu .hamburguer::after {
+          top: 800%; }
+        .header .nav-menu .menu .hamburguer.active {
+          transform: translate3d(0, 10px, 0) rotate(45deg); }
+          .header .nav-menu .menu .hamburguer.active::before {
+            transform: translate3d(-10px, 2px, 0) rotate(-45deg);
+            opacity: 0; }
+          .header .nav-menu .menu .hamburguer.active::after {
+            transform: translate3d(0, -16px, 0) rotate(-90deg); }
 
 .hero {
   background: url(../img/banner-bg.jpg) no-repeat center center/cover;
