@@ -148,27 +148,39 @@ footer {
 .header {
   background: black;
   width: 100%; }
-  .header nav {
-    margin: 0 70px;
-    position: relative;
-    transition: all 0.3s;
-    transform-origin: 100% 50%; }
-    .header nav a {
-      margin-left: 40px;
-      text-decoration: none;
-      color: #fff; }
-      .header nav a:hover {
-        color: #f3487f;
-        transition: all .3s; }
   .header .hide {
     transform: scale(0); }
   .header .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px; }
+    padding: 18px;
+    position: relative; }
     .header .nav-menu .menu {
-      height: 24px; }
+      display: flex;
+      height: 24px;
+      position: relative; }
+      .header .nav-menu .menu nav {
+        margin-right: 0;
+        position: absolute;
+        right: 0;
+        top: 57px;
+        text-align: right;
+        padding: 20px 20px;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        background: #8460f6;
+        transition: all 0.3s; }
+        .header .nav-menu .menu nav a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 700;
+          color: #fff; }
+          .header .nav-menu .menu nav a:hover {
+            color: #f3487f;
+            transition: all .3s; }
       .header .nav-menu .menu .hamburguer {
         background: #fff;
         border-radius: 10px;

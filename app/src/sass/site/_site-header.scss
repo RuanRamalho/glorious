@@ -1,21 +1,6 @@
 .header {
   background: black;
   width: 100%;
-  nav {
-    margin: 0 70px;
-    position: relative;
-    transition: all 0.3s;
-    transform-origin: 100% 50%;
-    a {
-      margin-left: 40px;
-      text-decoration: none;
-      color: #fff;
-      &:hover {
-        color: #f3487f;
-        transition: all .3s;
-      } 
-     }
-  }
   .hide {
     transform: scale(0);
   }
@@ -24,8 +9,35 @@
     justify-content: space-between;
     align-items: center;
     padding: 18px;
+    position: relative;
     .menu {
+      display: flex;
       height: 24px;
+      position: relative;
+      nav {
+        margin-right: 0;
+        position: absolute;
+        right: 0;
+        top: 57px;
+        text-align: right;
+        padding: 20px 20px;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        background: #8460f6;
+        transition: all 0.3s;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 700;
+          color: #fff;
+          &:hover {
+            color: #f3487f;
+            transition: all .3s;
+          }
+        }
+      }
       .hamburguer {
       background: #fff;
       border-radius: 10px;
@@ -66,8 +78,6 @@
     }
   }
 }
-
-
 .hero {
   background: url(../img/banner-bg.jpg) no-repeat center center/cover;
   justify-content: center;
@@ -107,7 +117,7 @@
         z-index: 3;
       }
     }
-  }
+}
   .hero {
     justify-content: center;
     align-items: center;
@@ -123,6 +133,5 @@
     }
   }
 }
-
 @media (min-width: $screen-lg-min) {
 }
