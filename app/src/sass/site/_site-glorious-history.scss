@@ -50,6 +50,10 @@
 }
 
 @media (min-width: $screen-md-min) {
+  .total-description {
+    padding: 0 0 87px;
+  }
+  
   .history-description {
     p {
        color: #777777;
@@ -68,6 +72,10 @@
     .history-img {
       max-width: 100%;
       height: auto;
+      position: absolute;
+      right: 0;
+      bottom: -381px;
+      left: 30px;
     }
   }
 
