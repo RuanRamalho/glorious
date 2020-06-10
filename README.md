@@ -1,6 +1,6 @@
 # Boilerplate - Ruan Ramalho
 
-Boilerplate using Yarn, Gulp, Bootstrap, e SASS.
+Boilerplate using Yarn, Gulp, Bootstrap, and SASS.
 
 ## Installation
 
