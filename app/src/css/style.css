@@ -293,7 +293,8 @@ footer {
       margin-bottom: 20px; }
     .history-area .history-title p {
       font-size: 16px;
-      color: #777777; }
+      color: #777777;
+      margin-bottom: 4rem; }
   .history-area .total-description {
     margin-top: 40px;
     background: #fff; }
