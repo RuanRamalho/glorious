@@ -335,23 +335,38 @@ footer {
 
 .service-area {
   background: #f3487f; }
-
-.services-title {
-  height: 260px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.services-description {
-  height: 260px;
-  background: #6f7598;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px;
-  color: #fff; }
+  .service-area .single-service {
+    text-align: center; }
+    .service-area .single-service .top {
+      height: 260px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .service-area .single-service .top #inverse-wand {
+        transform: rotateY(180deg); }
+      .service-area .single-service .top i {
+        font-size: 26px;
+        color: #f3487f;
+        margin-bottom: 20px; }
+      .service-area .single-service .top:hover {
+        background: #f3487f;
+        color: #fff;
+        transition: all 0.3s; }
+        .service-area .single-service .top:hover i {
+          color: #fff; }
+      .service-area .single-service .top h3 {
+        font-size: 22px;
+        font-weight: 500; }
+    .service-area .single-service .bottom {
+      height: 260px;
+      background: #6f7598;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      color: #fff; }
 
 @media (min-width: 992px) {
   .services-description {

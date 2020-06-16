@@ -1,25 +1,48 @@
 .service-area {
   background: #f3487f;
+  .single-service {
+    text-align: center;
+    .top {
+      height: 260px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #inverse-wand {
+        transform: rotateY(180deg);
+      }
+      i {
+        font-size: 26px;
+        color: #f3487f;
+        margin-bottom: 20px;
+      }
+      &:hover {
+        background: #f3487f;
+        color: #fff;
+        transition: all 0.3s;
+        i {
+          color: #fff;
+        }
+      }
+      h3 {
+        font-size: 22px;
+        font-weight: 500;
+      }
+    }
+    .bottom {
+      height: 260px;
+      background: #6f7598;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      color: #fff;
+    }
+  }
 }
 
-.services-title {
-  height: 260px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.services-description {
-  height: 260px;
-  background: #6f7598;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px;
-  color: #fff;
-}
   
 @media (min-width: $screen-sm-min) {
 }
