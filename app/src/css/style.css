@@ -349,12 +349,6 @@ footer {
         font-size: 26px;
         color: #f3487f;
         margin-bottom: 20px; }
-      .service-area .single-service .top:hover {
-        background: #f3487f;
-        color: #fff;
-        transition: all 0.3s; }
-        .service-area .single-service .top:hover i {
-          color: #fff; }
       .service-area .single-service .top h3 {
         font-size: 22px;
         font-weight: 500; }
@@ -367,6 +361,12 @@ footer {
       text-align: center;
       padding: 30px;
       color: #fff; }
+    .service-area .single-service .bottom:hover + .top {
+      background-color: #f3487f;
+      transition: all .3s;
+      color: #fff; }
+      .service-area .single-service .bottom:hover + .top i {
+        color: #fff; }
 
 @media (min-width: 992px) {
   .services-description {

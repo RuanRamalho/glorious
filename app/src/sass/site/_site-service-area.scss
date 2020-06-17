@@ -16,14 +16,6 @@
         color: #f3487f;
         margin-bottom: 20px;
       }
-      &:hover {
-        background: #f3487f;
-        color: #fff;
-        transition: all 0.3s;
-        i {
-          color: #fff;
-        }
-      }
       h3 {
         font-size: 22px;
         font-weight: 500;
@@ -38,6 +30,14 @@
       text-align: center;
       padding: 30px;
       color: #fff;
+    }
+    .bottom:hover + .top {
+      background-color: #f3487f;
+      transition: all .3s;
+      color: #fff;
+      i {
+        color: #fff;
+      }
     }
   }
 }
