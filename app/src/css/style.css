@@ -3,6 +3,9 @@
  * Modules > Variables
  * 
  */
+a.button {
+  text-decoration: none; }
+
 .button {
   background: transparent;
   border: 1px solid #eee;
@@ -41,6 +44,49 @@
       color: #8460f6;
       font-weight: 700; }
 
+@media (min-width: 768px) {
+  .button {
+    background: transparent;
+    border: 1px solid #eee;
+    color: #777777;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 10px 10px 0 30px;
+    padding: 0 25px;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center; }
+    .button--support {
+      color: white;
+      border-radius: 20px;
+      line-height: 40px;
+      padding: 0 20px;
+      width: 30%; }
+    .button--active {
+      background: #8460f6;
+      border: 1px solid #8460f6;
+      color: white; }
+    .button--default {
+      color: #8460f6;
+      padding: 12px 20px;
+      width: 25%;
+      line-height: 20px; }
+    .button--send {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-75%);
+      right: 10px;
+      text-transform: uppercase;
+      background: #fff;
+      border: 1px solid #eee;
+      width: 25%; }
+      .button--send span {
+        color: #8460f6;
+        font-weight: 700; } }
+
 @media (min-width: 992px) {
   .button {
     background: transparent;
@@ -57,7 +103,7 @@
       border-radius: 20px;
       line-height: 40px;
       padding: 0 20px;
-      width: 15%; }
+      width: 18%; }
     .button--active {
       background: #8460f6;
       border: 1px solid #8460f6;
@@ -66,7 +112,7 @@
     .button--default {
       color: #8460f6;
       padding: 0 20px;
-      width: 35%;
+      width: 37%;
       line-height: 46px; }
     .button--send {
       position: absolute;
@@ -75,7 +121,7 @@
       right: 10px;
       text-transform: uppercase;
       border: 1px solid #eee;
-      width: 30%; } }
+      width: 35%; } }
 
 input[type=text] {
   width: 100%;
