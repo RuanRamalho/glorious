@@ -277,6 +277,10 @@ footer {
     font-size: 16px;
     margin-bottom: 60px;
     text-align: center; }
+  .hero a {
+    color: white; }
+    .hero a .span {
+      margin-right: 10px; }
 
 @media (max-width: 767px) {
   .header nav {
@@ -352,7 +356,15 @@ footer {
       font-weight: 100;
       margin-bottom: 20px; }
     .hero p {
-      font-size: 16px; } }
+      font-size: 16px; }
+    .hero a {
+      color: white; }
+      .hero a .span {
+        transition: all .3s; }
+      .hero a i {
+        margin: auto; }
+      .hero a:hover .span {
+        padding-right: 10px; } }
 
 .history-area {
   padding: 100px 0;

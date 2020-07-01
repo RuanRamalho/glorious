@@ -93,6 +93,14 @@
     margin-bottom: 60px;
     text-align: center;
   }
+
+  a {
+    color: white;
+
+    .span {
+      margin-right: 10px;
+    }
+  }
 }
 
 @media (max-width: $screen-sml-max) {
@@ -200,6 +208,22 @@
 
     p {
       font-size: 16px;
+    }
+
+    a {
+      color: white;
+
+      .span {
+        transition: all .3s;
+      }
+
+      i {
+        margin: auto;
+      }
+
+      &:hover .span{
+        padding-right: 10px;
+      }
     }
   }
 }
