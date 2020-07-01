@@ -28,7 +28,9 @@
                 <a href="#">generic</a>
                 <a href="#">elements</a>
               </nav>
-              <div class="hamburguer"></div>
+              <div class="box-hamburguer">
+                <div class="hamburguer"></div>
+              </div>
             </div>
           </div>
       </div>
@@ -44,7 +46,10 @@
           <p>Living in today’s metropolitan world of cellular phones, mobile computers and other
             high-tech gadgets is not just hectic but very impersonal.</p>
           <div class="col-12 d-flex justify-content-center">
-            <a class="button button--support" href="">GET STARTED</a>
+            <a class="button button--support" href="">
+              <span class="span">GET STARTED</span>
+             <span><i class="fas fa-arrow-right"></i></span>
+            </a>
           </div>
         </div>
       </div>
@@ -72,19 +77,41 @@
           <div class="col-lg-7 ml-auto">
             <div class="tab-history">
               <div class="nav inline">
-                <a href="" class="button button--active">HISTORY</a>
-                <a href="" class="button">MISSION</a>
-                <a href="" class="button">VISION</a>
+                <a href="#nav-history" id="history" class="button button--active" data-toggle="tab" role="tab" aria-controls="nav-history" aria-selected="true" aria-expanded="true">HISTORY</a>
+                <a href="#nav-mission" id="mission" class="button" data-toggle="tab" role="tab" aria-controls="nav-mission" aria-selected="false" aria-expanded="false">MISSION</a>
+                <a href="#nav-vision"  id="vision"  class="button" data-toggle="tab" role="tab" aria-controls="nav-vision" aria-selected="false" aria-expanded="false">VISION</a>
               </div>
-              <div class="history-description">
-                <h3>History</h3>
-                <p>Few would argue that, despite the advancements of feminism over the past
+              <div class="tab-content">
+                <div class="tab-pane history-description active" id="nav-history" role="tabpanel" aria-labelledby="history" aria-expanded="true">
+                  <h3>History</h3>
+                  <p>Few would argue that, despite the advancements of feminism over the past
                   three decades, women still face a double standard when it comes to their
                   behavior. While men’s borderline-inappropriate behavior is often laughed
                   off as “boys will be boys,” women face higher conduct standards – especially
                   in the workplace. That’s why it’s crucial that, as women, our behavior on the
                   job is beyond reproach.Small Towns and Big StatesFor evidence of the double
                   standard, we need look no farther than Arlington.</p>
+                </div>
+                <div class="tab-pane history-description" id="nav-mission" role="tabpanel" aria-labelledby="mission" aria-expanded="false">
+                  <h3>Mission</h3>
+                  <p>Few would argue that, despite the advancements of feminism over the past
+                  three decades, women still face a double standard when it comes to their
+                  behavior. While men’s borderline-inappropriate behavior is often laughed
+                  off as “boys will be boys,” women face higher conduct standards – especially
+                  in the workplace. That’s why it’s crucial that, as women, our behavior on the
+                  job is beyond reproach.Small Towns and Big StatesFor evidence of the double
+                  standard, we need look no farther than Arlington.</p>
+                </div>
+                <div class="tab-pane history-description" id="nav-vision" role="tabpanel" aria-labelledby="vision" aria-expanded="false">
+                  <h3>Vision</h3>
+                  <p>Few would argue that, despite the advancements of feminism over the past
+                  three decades, women still face a double standard when it comes to their
+                  behavior. While men’s borderline-inappropriate behavior is often laughed
+                  off as “boys will be boys,” women face higher conduct standards – especially
+                  in the workplace. That’s why it’s crucial that, as women, our behavior on the
+                  job is beyond reproach.Small Towns and Big StatesFor evidence of the double
+                  standard, we need look no farther than Arlington.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -412,6 +439,7 @@
   <script src="src/js/carousel-projects.js"></script>
   <script src="src/js/header-fixed.js"></script>
   <script src="src/js/hamburguer-efect.js"></script>
+  
 </body>
 
 </html>
