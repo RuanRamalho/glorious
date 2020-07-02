@@ -18,7 +18,7 @@ a.button {
   &--support {
     color: white;
     border-radius: 20px;
-    line-height: 40px; 
+    line-height: 40px;
     padding: 0 20px;
     width: 60%;
   }
@@ -26,10 +26,14 @@ a.button {
     background: #8460f6;
     border: 1px solid #8460f6;
     color: white;
+
+    &:hover {
+      color: white;
+    }
   }
   &--default {
     color: #8460f6;
-    padding: 12px 20px;    
+    padding: 12px 20px;
     width: 60%;
     line-height: 20px;
   }
@@ -44,7 +48,7 @@ a.button {
     }
   }
 }
-  
+
 @media (min-width: $screen-sm-min) {
   .button {
     background: transparent;
@@ -63,7 +67,7 @@ a.button {
     &--support {
       color: white;
       border-radius: 20px;
-      line-height: 40px; 
+      line-height: 40px;
       padding: 0 20px;
       width: 30%;
     }
@@ -74,7 +78,7 @@ a.button {
     }
     &--default {
       color: #8460f6;
-      padding: 12px 20px;    
+      padding: 12px 20px;
       width: 25%;
       line-height: 20px;
     }
@@ -91,11 +95,10 @@ a.button {
         color: #8460f6;
         font-weight: 700;
       }
-  
     }
-  } 
+  }
 }
-  
+
 @media (min-width: $screen-md-min) {
   .button {
     background: transparent;
@@ -110,7 +113,7 @@ a.button {
     &--support {
       color: white;
       border-radius: 20px;
-      line-height: 40px; 
+      line-height: 40px;
       padding: 0 20px;
       width: 18%;
     }
@@ -137,6 +140,6 @@ a.button {
     }
   }
 }
-  
+
 @media (min-width: $screen-lg-min) {
 }
