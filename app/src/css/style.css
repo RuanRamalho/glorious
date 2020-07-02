@@ -498,6 +498,12 @@ footer {
     font-size: 18px; }
   .vector-description p {
     color: #777777; }
+  .vector-description a {
+    color: #8460f6;
+    transition: all .3s; }
+    .vector-description a:hover {
+      background: #8460f6;
+      color: white; }
 
 .projects-area {
   background: #5dd1e3;

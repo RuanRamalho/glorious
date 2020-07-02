@@ -22,12 +22,12 @@
 .vector-description {
   margin-left: 30px;
   margin-top: 60px;
-    
-   h3 { 
+
+   h3 {
     font-size: 32px;
     font-weight: bold;
   }
-    
+
    h4 {
     margin-top: 10px;
     font-weight: 300;
@@ -37,14 +37,24 @@
 
    p {
     color: #777777
-  }  
+  }
+
+  a {
+    color: #8460f6;
+    transition: all .3s;
+
+    &:hover {
+      background: #8460f6;
+      color: white;
+    }
+  }
 }
 
 @media (min-width: $screen-sm-min) {
 }
-  
+
 @media (min-width: $screen-md-min) {
 }
-  
+
 @media (min-width: $screen-lg-min) {
 }
