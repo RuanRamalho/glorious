@@ -1,38 +1,145 @@
-a {
+a.button {
   text-decoration: none;
-  font-size: 12px;
 }
-
 .button {
   background: transparent;
   border: 1px solid #eee;
   color: #777777;
   border-radius: 20px;
-  line-height: 37px;
+  line-height: 40px;
   margin: 10px 10px 0 30px;
   padding: 0 25px;
-  font-weight: 550;
-
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
   &--support {
     color: white;
     border-radius: 20px;
-    line-height: 40px; 
+    line-height: 40px;
     padding: 0 20px;
+    width: 60%;
   }
-
   &--active {
     background: #8460f6;
     border: 1px solid #8460f6;
     color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+  &--default {
+    color: #8460f6;
+    padding: 12px 20px;
+    width: 60%;
+    line-height: 20px;
+  }
+  &--send {
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid #eee;
+    width: 50%;
+    span {
+      color: #8460f6;
+      font-weight: 700;
+    }
   }
 }
 
-  
 @media (min-width: $screen-sm-min) {
+  .button {
+    background: transparent;
+    border: 1px solid #eee;
+    color: #777777;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 10px 10px 0 30px;
+    padding: 0 25px;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    &--support {
+      color: white;
+      border-radius: 20px;
+      line-height: 40px;
+      padding: 0 20px;
+      width: 30%;
+    }
+    &--active {
+      background: #8460f6;
+      border: 1px solid #8460f6;
+      color: white;
+    }
+    &--default {
+      color: #8460f6;
+      padding: 12px 20px;
+      width: 25%;
+      line-height: 20px;
+    }
+    &--send {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-75%);
+      right: 10px;
+      text-transform: uppercase;
+      background: #fff;
+      border: 1px solid #eee;
+      width: 25%;
+      span {
+        color: #8460f6;
+        font-weight: 700;
+      }
+    }
+  }
 }
-  
+
 @media (min-width: $screen-md-min) {
+  .button {
+    background: transparent;
+    border: 1px solid #eee;
+    color: #777777;
+    border-radius: 20px;
+    line-height: 37px;
+    margin: 10px 10px 0 30px;
+    padding: 0 25px;
+    font-weight: 700;
+    width: 20%;
+    &--support {
+      color: white;
+      border-radius: 20px;
+      line-height: 40px;
+      padding: 0 20px;
+      width: 18%;
+    }
+    &--active {
+      background: #8460f6;
+      border: 1px solid #8460f6;
+      color: white;
+      width: 20%;
+    }
+    &--default {
+      color: #8460f6;
+      padding: 0 20px;
+      width: 37%;
+      line-height: 46px;
+    }
+    &--send {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-75%);
+      right: 10px;
+      text-transform: uppercase;
+      border: 1px solid #eee;
+      width: 35%;
+    }
+  }
 }
-  
+
 @media (min-width: $screen-lg-min) {
 }

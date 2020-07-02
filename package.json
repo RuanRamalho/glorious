@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-projects",
+  "name": "glorious",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "gulp watch",
     "copyjs": "gulp copyjs"
   },
-  "author": "",
+  "author": "Ruan Ramalho",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",

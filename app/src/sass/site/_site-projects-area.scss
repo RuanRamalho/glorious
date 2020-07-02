@@ -1,0 +1,55 @@
+.projects-area {
+  background: #5dd1e3; 
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.carousel-description {
+  background: #fff;
+  padding: 100px 50px;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+  
+@media (min-width: $screen-sm-min) {
+}
+  
+@media (min-width: $screen-md-min) {
+.carousel-image {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-description {
+  background: #fff;
+  padding: 100px 50px;  
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+}
+  
+@media (min-width: $screen-lg-min) {
+}
+  

@@ -1,3 +1,40 @@
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+}
+input[type=text]:focus {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid #555;
+}
+::-webkit-input-placeholder  { 
+  color:rgb(173, 173, 173);  
+  }
+
+textarea{
+  height: 150px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+}
+input:-moz-placeholder { 
+  color:rgb(121, 121, 121); 
+}
+
+.description-input {
+  width: 100%;
+  line-height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 300;
+  background: #f9f9ff;
+  padding: 0 25px;
+}
+
 
 @media (min-width: $screen-sm-min) {
 }
