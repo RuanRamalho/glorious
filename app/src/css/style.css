@@ -90,7 +90,7 @@ a.button {
         color: #8460f6;
         font-weight: 700; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1026px) {
   .button {
     background: transparent;
     border: 1px solid #eee;
@@ -322,7 +322,7 @@ footer {
         color: #f3487f;
         transition: all .3s; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1026px) {
   .header {
     background: black;
     height: 61px;
@@ -407,7 +407,7 @@ footer {
       font-size: 14px;
       width: 100%; }
 
-@media (min-width: 992px) {
+@media (min-width: 1026px) {
   .total-description {
     padding: 0 0 100px; }
     .total-description .history-image {
@@ -467,7 +467,7 @@ footer {
         .service-area .single-service .bottom:hover + .top i {
           color: #fff; }
 
-@media (min-width: 992px) {
+@media (min-width: 1026px) {
   .services-description {
     font-size: 14px; } }
 
@@ -526,7 +526,50 @@ footer {
     margin-top: 0;
     margin-bottom: 1rem; }
 
-@media (min-width: 992px) {
+.button-controls .button-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .button-controls .button-nav .button-prev, .button-controls .button-nav .button-next {
+    width: 40px;
+    line-height: 2;
+    background: white;
+    text-align: center;
+    color: #777777;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 5px; }
+    .button-controls .button-nav .button-prev:hover, .button-controls .button-nav .button-next:hover {
+      color: white;
+      background: #8560f6; }
+  .button-controls .button-nav .button-prev {
+    border-radius: 20px 0 0 20px; }
+  .button-controls .button-nav .button-next {
+    border-radius: 0 20px 20px 0; }
+
+@media (min-width: 768px) {
+  .button-controls .button-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+    .button-controls .button-nav .button-prev, .button-controls .button-nav .button-next {
+      width: 40px;
+      line-height: 2;
+      background: white;
+      text-align: center;
+      color: #777777;
+      cursor: pointer;
+      transition: all .3s;
+      padding: 5px; }
+      .button-controls .button-nav .button-prev:hover, .button-controls .button-nav .button-next:hover {
+        color: white;
+        background: #8560f6; }
+    .button-controls .button-nav .button-prev {
+      border-radius: 20px 0 0 20px; }
+    .button-controls .button-nav .button-next {
+      border-radius: 0 20px 20px 0; } }
+
+@media (min-width: 1026px) {
   .carousel-image {
     height: 100%;
     width: 100%; }
@@ -545,7 +588,8 @@ footer {
       position: absolute;
       top: 50%;
       right: -60px;
-      transform: translateY(-225px); }
+      transform: translateY(-225px);
+      display: block; }
       .button-controls .button-nav .button-prev, .button-controls .button-nav .button-next {
         width: 40px;
         line-height: 2;

@@ -25,7 +25,70 @@
   }
 }
 
+  .button-controls {
+    .button-nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      .button-prev, .button-next {
+        width: 40px;
+        line-height: 2;
+        background: white;
+        text-align: center;
+        color: #777777;
+        cursor: pointer;
+        transition: all .3s;
+        padding: 5px;
+
+        &:hover {
+          color: white;
+          background: #8560f6;
+        }
+      }
+
+      .button-prev {
+        border-radius: 20px 0 0 20px;
+      }
+
+      .button-next {
+        border-radius: 0 20px 20px 0 ;
+      }
+    }
+  }
+
 @media (min-width: $screen-sm-min) {
+  .button-controls {
+    .button-nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      .button-prev, .button-next {
+        width: 40px;
+        line-height: 2;
+        background: white;
+        text-align: center;
+        color: #777777;
+        cursor: pointer;
+        transition: all .3s;
+        padding: 5px;
+
+        &:hover {
+          color: white;
+          background: #8560f6;
+        }
+      }
+
+      .button-prev {
+        border-radius: 20px 0 0 20px;
+      }
+
+      .button-next {
+        border-radius: 0 20px 20px 0 ;
+      }
+    }
+  }
 }
 
 @media (min-width: $screen-md-min) {
@@ -57,6 +120,7 @@
       top: 50%;
       right: -60px;
       transform: translateY(-225px);
+      display: block;
 
       .button-prev, .button-next {
         width: 40px;
