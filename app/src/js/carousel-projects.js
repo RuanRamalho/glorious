@@ -3,5 +3,7 @@ $('.slick-projects').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    nextArrow:'.button-next',
+    prevArrow:'.button-prev'
   });
