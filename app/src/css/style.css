@@ -84,7 +84,8 @@ a.button {
       text-transform: uppercase;
       background: #fff;
       border: 1px solid #eee;
-      width: 25%; }
+      width: 25%;
+      transition: all .3s; }
       .button--send span {
         color: #8460f6;
         font-weight: 700; } }
@@ -572,6 +573,22 @@ footer {
     color: #777777;
     font-size: 16px;
     margin-bottom: 40px; }
+
+a {
+  color: #8460f6; }
+
+@media (min-width: 992px) {
+  .button-submit a {
+    color: #8460f6;
+    transition: all .1s; }
+    .button-submit a:hover span {
+      padding-left: 60px; }
+    .button-submit a:hover {
+      background: #8460f6;
+      color: #fff; }
+    .button-submit a span {
+      margin-right: 10px;
+      transition: all .3s; } }
 
 .subscription-area {
   padding: 100px 0;
